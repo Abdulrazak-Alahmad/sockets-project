@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="abed-chat">
         <div id="chat-window">
             <div id="output">
             </div>
-        </div> 
-        <div id="feedback"></div>
+        </div><div id="feedback"></div>
         <input type="text" placeholder="Name" id="handle">
-        <input type="text" placeholder="message" id="message">
-        <button id="send">Send</button>
+        <form action="" id="myForm">
+            <input type="text" placeholder="message" id="message">
+            <button id="send">Send</button>
+        </form>
+
     </div>
     <script src="./chat.js"></script>
 </body>
+
 </html>
